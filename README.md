@@ -1,4 +1,4 @@
-# Sass Added to React Portfolio Porject
+# Sass Added to React Portfolio Project
 
 ### Changes committed to this branch
 
