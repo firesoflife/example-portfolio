@@ -218,7 +218,6 @@ img {
           margin-bottom: 3rem;
           box-shadow: 10px 12px 13px rgba(0, 0, 0, 0.3);
           border-radius: 4px;
-          // transition: all 0.6 ease-in-out;
           &:hover {
             & i {
               cursor: pointer;
@@ -269,11 +268,14 @@ img {
       text-align: center;
       align-items: center;
       justify-content: space-between;
+      font-size: 5rem;
+      color: $color-grey-dark;
+      padding-top: 2rem;
 
       &__icons {
         color: $color-grey-dark;
         padding-top: 2rem;
-        font-size: 5rem;
+        // font-size: 5rem;
 
         &:hover {
           color: $color-primary;
@@ -373,7 +375,8 @@ img {
       position: relative;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.9),
         inset 0px -4px 4px rgba(0, 0, 0, 0.9);
-      background: url('/./public/img/Rocks.jpg') no-repeat center center;
+      // background: url('/./public/img/Rocks.jpg') no-repeat center center;
+      // background: url(../../public/img/Rocks.jpg) no-repeat center center;
       background-attachment: fixed;
       background-size: cover;
 
